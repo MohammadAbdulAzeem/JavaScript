@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script type="module">
+
+// Default export import 
+import multiply from './pro.js';
+
+// Named exports import 
+import { add, subtract } from './pro.js';
+
+console.log(add(3, 2));       // Output: 5
+console.log(subtract(7, 4));  // Output: 3
+console.log(multiply(6, 2));  // Output: 12
+
+
+
+
+
+// // main.js
+// import greet from './pro.js';
+
+// console.log(greet('Asif')); // Output: Hello, Alice!
+
+
+
+
+</script>
+</html>
